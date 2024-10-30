@@ -121,6 +121,7 @@ binary_to_text = {}
 
 def precompute():
     global to_binary, binary_to_text
+    to_binary =[]
     for n in range(128):
         b = [0,0,0,0,0,0,0,0]
         for i in range(0, 8):
